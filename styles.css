@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Navbar styles */
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #6F6AF7;
+            color: #fff;
+            width: 1728px;
+            height: 127px;
+            flex-shrink: 0;
+            padding: 10px;
+        }
+        
+        .navbar-logo {
+            width: 215px;
+            height: 63px;
+            flex-shrink: 0;
+            color: #FFF;
+            font-family: Delius Unicase;
+            font-size: 61.43px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        
+        .navbar-links {
+            display: flex;
+            gap: 46px;
+            color: #FFF;
+            font-family: DM Sans;
+            font-size: 36.43px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .navbar-search {
+            display: flex;
+            align-items: center;
+            border-radius: 63px;
+            background: #FFF;
+            padding: 5px;
+            width: 314px;
+            height: 57px;
+            flex-shrink: 0;
+        }
+        
+        .navbar-search input {
+            width: 264px;
+            height: 23px;
+            flex-shrink: 0;
+            background-image: url('img/search.png'); /* Replace with your search icon image */
+            background-repeat: no-repeat;
+            background-position: right center; /* Adjust icon position */
+            background-size: 16px 16px;
+            color: #9F9F9F;
+            font-family: DM Sans;
+            font-size: 24.43px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        
+        .navbar-dashboard-icon {
+          margin:39px 53px 41px 123px;
+        }
+                /* Image and Box styles */
+                .image-and-box {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        
+        .image {
+            width: 456px;
+            height: 507px;
+            border-radius: 20px;
+            border-radius: 20px;
+            background: url(img/image\ 4.png), lightgray 50% / cover no-repeat;
+            margin: 162px 49px 137px 129px;
+        }
+        
+        .box {
+            width: 972px;
+            height: 507px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            border: 6px solid #FFF;
+            background: #E5D8FF;
+            box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+            margin-top: 162px;
+            margin-right: 34px;
+            margin-bottom: 137px;
+            color: #6F7373;
+            font-family: DM Sans;
+            font-size: 29px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 178.7%; /* 51.823px */
+            padding: 29px 16px 395px 34px;
+
+        }
+        
+        /* Social Media Stickers styles */
+        .social-media-stickers {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            position: sticky;
+            top: 50px;
+        }
+        
+        .social-media-sticker {
+            width: 50px;
+            height: 79px;
+            background: #FFF;
+        }
+        .flex-container {
+            display: flex;
+            gap: 10px;
+        }
+        
+
+        .boxes {
+            width: 337px;
+            height: 145.481px;
+            flex-shrink: 0;
+            border-radius: 11px;
+            color: #FFF;
+            font-family: DM Sans;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 178.7%; /* 50.036px */
+            letter-spacing: 1.12px;
+            justify-content: center;
+            align-content: center;
+            padding-left: 23px;
+            padding-top: 20px;
+
+        }
+        
+        /* Colors for each box */
+        .box-1 { 
+         margin: 137px 59px 188.52px 101px;
+         background: #929DFF;
+         box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40); 
+
+        }
+        .box-2 { background: #734CF2;
+            margin-top:137px ;
+            margin-bottom:188.52px ;
+            margin-right:59px ;
+            box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40); 
+        }
+        .box-3 { background: #D288FF;
+            margin-top:137px ;
+            margin-bottom:188.52px ;
+            margin-right:59px ;
+            box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40); 
+        }
+        .box-4 { background: #000;
+            margin-top:137px ;
+            margin-bottom:188.52px ;
+            margin-right:59px ;
+            box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40); 
+            position: relative;
+        }
+
+        .box-4 img{
+            position:absolute;
+            top:83px ;
+            left: 217px ;
+        }
+
+
+        .blue-box {
+            margin: 189px 85px 88px 101px;
+            width: 1542px;
+            height: 717px;
+            flex-shrink: 0;
+            border-radius: 21px;
+            background: #483EFF;
+            display: flex;
+          }
+          
+          .left-box {
+            display: flex;
+            flex-direction: column;
+          }
+          .inner-box {
+            width: 24.8125rem;
+            height: 8.3125rem;
+            flex-shrink: 0;
+            border-radius: 22px;
+            border: 5px solid #FFF;
+            box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+            margin-right: 62px;
+            margin-bottom: 82px;
+            margin-left: 52px;
+            color: #FFF;
+            font-family: DM Sans;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 178.7%; /* 62.545px */
+            letter-spacing: 1.4px;
+            text-align: center;
+            padding-top: 38px;
+           
+          }
+          .inner-box1 {
+            width: 397px;
+            height: 133px;
+            flex-shrink: 0;
+            border-radius: 22px;
+            background: #BCE0F6;
+            box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+            margin: 73px 31px 82px 52px;
+            color: #000;
+            font-family: DM Sans;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 178.7%; /* 62.545px */
+            letter-spacing: 1.4px;
+            text-align: center;
+            padding-top: 38px;
+          }
+          
+          
+          .white-box {
+            width: 1004px;
+            height: 656px;
+            flex-shrink: 0;
+            border-radius: 19px;
+            background: #FFF;
+            margin: 31px 27px 30px 10px;
+            position:relative;
+          }
+          .white-box p{
+            padding: 72px 500px 61px 54px;
+            color: #04285A;
+            font-family: Inter;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 3.99px;
+
+          }
+          .f1{
+            padding-left: 72px;
+            color: #04285A;
+            font-family: Roboto;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2.94px;
+            margin-bottom: 38px;
+          }
+          .f2{
+            color: #143565;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.2px;
+          }
+          .next-button {
+            position:absolute;
+            border-radius: 9px;
+            background: #000;
+            width: 207px;
+            height: 78px;
+            flex-shrink: 0;
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.5px;
+            bottom: 36px;
+            right: 53px;
+        
+
+          }
